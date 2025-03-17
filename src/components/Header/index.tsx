@@ -2,7 +2,7 @@ import {HeaderContainer,HeaderWrapper,Hambuguer,MenuLogoWrapper,NavIcon,SideBarC
 
 import {Link, createSearchParams, useNavigate} from 'react-router-dom';
 import { useState } from 'react';
-import logo from '../../assets/images/logo-letras-pretas.png';
+import logo from '../../assets/images/logo-header.png';
 import {GrFormClose} from 'react-icons/gr';
 import {BsTelephone} from 'react-icons/bs';
 import { MdWhatsapp } from 'react-icons/md';
@@ -45,7 +45,6 @@ const Header = ({onChange}:Prop) =>{
 
 
 
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     const [sidebar, setSidebar] =useState(false);
     const showSidebar = () => setSidebar(!sidebar);
 
@@ -60,6 +59,7 @@ const Header = ({onChange}:Prop) =>{
                 <div className='links-options-rent-header'>
                 <span className='link-option-header' onClick={handleToSearchSale} style={{cursor:'pointer'}}>Comprar</span>
                 <span className='link-option-header'  onClick={handleToSearchRent} style={{cursor:'pointer'}}>Alugar</span>
+                <span className='link-option-header'  onClick={handleToSearchRent} style={{cursor:'pointer'}}>Empreendimentos</span>
                 </div>
 
                 <TelephoneSideBarWrapper>                 

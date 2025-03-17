@@ -32,8 +32,8 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
         justify-content: cener;
 
         .principal-title{
-            width: 33%;
-            heigh: 33%;    
+            width: 63%;
+            heigh: 63%;    
             margin-bottom:5px;
                
         }
@@ -79,7 +79,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
       max-height:37px;
       line-height: 37px;
       font-size:15px;
-      color:rgb(255 204 0);
+      color:#505050;
        border-radius:50%;
         padding:7px;
         cursor: pointer;
@@ -100,7 +100,7 @@ export const HomeBannerWrapper = styled.div<{icon:IconType}>`
       max-height:37px;
       line-height: 37px;
       font-size:15px;
-      color:rgb(255 204 0);
+      color:#505050;
       border-radius:50%;
       padding:7px;
       cursor: pointer;
