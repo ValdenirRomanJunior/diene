@@ -188,7 +188,7 @@ const Home = () => {
             <div className="text-agent-wrapper-home">
             <FaQuoteLeft className="quote-icon-agent-home"/>
             <h3>Você tem sonhos, eu tenho a chave da solução!</h3>
-            <p>CEO-Ubaldo Vasconcelos</p>
+            <p>CEO-Diene da conceição</p>
             </div>
 
             
@@ -203,7 +203,7 @@ const Home = () => {
               
             </div>
             </div>
-            <p className="agent-name">CEO-Ubaldo Vasconcelos</p>
+            <p className="agent-name">CEO-Diene da conceição</p>
             </div> 
           
            </SessionAgent>
